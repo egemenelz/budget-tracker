@@ -4,7 +4,7 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 
 //DEFINING THE FILES TO CACHE
 const FILES_TO_CACHE = [
-    './',
+    '.',
     './js/index.js',
     './js/idb.js',
     './index.html',
@@ -57,7 +57,7 @@ self.addEventListener('fetch', function (evt) {
     if (evt.request.url.includes('/api/')) {
         evt.respondWith(
             caches
-                .open(DATA_CACHE_NAME)
+                .open(CACHE_NAME)
                 .then(cache => {
                     return fetch(evt.request)
                         .then(response => {
