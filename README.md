@@ -1,5 +1,6 @@
 # Budget Tracker
 
+<img width="1055" alt="Screen Shot 2022-08-21 at 7 10 05 PM" src="https://user-images.githubusercontent.com/74003028/185814800-42795d56-5d01-42d3-a558-ff26b9fc4198.png">
 
 [Deployment](https://stormy-ocean-42911.herokuapp.com/)
 
